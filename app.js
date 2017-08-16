@@ -7,8 +7,10 @@ function App (table, yearStart, yearFinal) {
         getDataFn(this.table, this.yearStart, this.yearFinal);
     })(table, yearStart, yearFinal);
 }
+console.log('blblb');
 
-var table = "temperature";
+
+var table = "temdperature";
 var initSelect  = document.getElementById("init");
 var finalSelect = document.getElementById("final");
 
